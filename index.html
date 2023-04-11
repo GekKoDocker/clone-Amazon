@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Website</title>
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <header>
+        <!-- <h1><a href="#"><img src="logo.png" alt="My Website" width="30" height="10"></a></h1> -->
+        <nav>
+            <ul>
+                <li><a href="#"><img src="logo.png" width="30" height="10 alt="Home"></a></li>        
+                <li><a href="#">Location</a></li>
+                <li style="float:right"><a class="active" href="#">Login</a></li>
+                <div class="search-container">
+                  <input class="search-input" type="text" placeholder="Search...">
+                  <button class="search-button" onclick="searchProducts()">Search</button>
+                </div>
+            </ul>
+        </nav>
+        <!-- <script src="main.js"></script> -->
+    </header>
+    
+    <main>
+      <!-- <input type="text" id="searchInput" onkeyup="searchProducts()" placeholder="Search products..."> -->
+      <section>
+        <!-- <h2 id="categoryTitle"></h2> -->
+        <div class="container">
+            <div class="product">Product 1</div>
+            <div class="product">Product 2</div>
+            <div class="product">Product 3</div>
+            <div class="product">Product 4</div>
+            <div class="product">Product 5</div>
+            <div class="product">Product 6</div>
+            <div class="product">Product 7</div>
+            <div class="product">Product 8</div>
+            <div class="product">Product 9</div>
+            <div class="product">Product 10</div>
+            <div class="product">Product 11</div>
+            <div class="product">Product 12</div>
+            <div class="product">Product 13</div>
+            <div class="product">Product 14</div>
+            <div class="product">Product 15</div>
+        </div>
+        <ul id="products-list"></ul>
+    </section>
+    </main>
+    
+    <script src="test-data.json"></script>
+
+    <script src="main.js"></script>
+    </body>
+  </html>
+  

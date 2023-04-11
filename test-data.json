@@ -1,0 +1,45 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "Laptop",
+        "category": "Electronics",
+        "description": "A powerful laptop with a fast processor and large storage capacity.",
+        "price": 899.99,
+        "image": "https://www.pexels.com/photo/home-office-desk-with-laptop-and-coffee-6424/"
+      },
+      {
+        "id": 2,
+        "name": "Smartphone",
+        "category": "Electronics",
+        "description": "A sleek smartphone with a high-resolution screen and fast internet connectivity.",
+        "price": 699.99,
+        "image": "https://via.placeholder.com/150x150"
+      },
+      {
+        "id": 3,
+        "name": "Perfume",
+        "category": "Beauty",
+        "description": "A fragrant perfume with a long-lasting scent.",
+        "price": 49.99,
+        "image": "https://via.placeholder.com/150x150"
+      },
+      {
+        "id": 4,
+        "name": "Lipstick",
+        "category": "Beauty",
+        "description": "A vibrant lipstick with a smooth, moisturizing formula.",
+        "price": 14.99,
+        "image": "https://via.placeholder.com/150x150"
+      },
+      {
+        "id": 5,
+        "name": "Toothbrush",
+        "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "category": "Health",
+        "price": 4.99,
+        "image": "https://via.placeholder.com/150x150"
+      }
+    ]
+  }
+  
